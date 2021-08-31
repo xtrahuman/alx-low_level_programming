@@ -8,13 +8,13 @@
 int main(void)
 {
 	char school[] = "Holberton";
-	int i;
-	int length = strlen(school);
-	for (i = 0; i < length; i++)
+	int i = 0;
+
+	while (school[i] != '\0')
 	{
 		_putchar(school[i]);
+		i++;
 	}
-
 	_putchar('\n');
 
 	return (0);
