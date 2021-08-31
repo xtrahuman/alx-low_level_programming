@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char school[] = "Holberton";
+	char school[] = "_putchar";
 	int i = 0;
 
 	while (school[i] != '\0')
