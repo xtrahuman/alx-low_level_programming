@@ -1,4 +1,4 @@
-#include <main.h>
+#include "holberton.h"
 /**
  * main - Entry point
  * prints "Holberton" followed by a new line

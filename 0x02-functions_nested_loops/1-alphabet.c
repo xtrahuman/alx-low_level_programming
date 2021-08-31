@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
  * main - calls print_alphabet function
  * _putchar - writes the character c to stdout
