@@ -1,16 +1,14 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_alphabet - print alphabet a-z afer looping
- * main - calls print_alphabet function
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: 0
  */
 
 void print_alphabet(void)
 {
 
-	int i;
+	char i;
 
 	i = 'a';
 
@@ -21,12 +19,4 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 
-}
-
-
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
 }
