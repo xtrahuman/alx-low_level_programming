@@ -13,6 +13,7 @@ void print_diagonal(int n)
 	while (n > 0)
 	{
 		i = c;
+
 		while (i > 0)
 		{
 			_putchar(32);
