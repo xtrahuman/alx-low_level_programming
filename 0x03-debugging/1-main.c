@@ -2,7 +2,6 @@
 
 /**
 * main - causes an infinite loop
-* printf("Infinite loop avoided! @\\o/\n")
 * Return: 0
 */
 
