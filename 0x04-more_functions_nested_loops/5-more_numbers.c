@@ -6,7 +6,7 @@ void more_numbers(void)
 {
 	int n, i, j, k;
 
-	for(n = 0; n < 10; n++)
+	for (n = 0; n < 10; n++)
 	{
 		for (i = 0; i <= 14; i++)
 		{
