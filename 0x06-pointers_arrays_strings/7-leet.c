@@ -8,21 +8,15 @@
 
 char *leet(char *s)
 {
-	int i;
+	int i, j;
 
+	char p[] = "AEOTL";
+	char k[] = "43071";
 	for (i = 0; s[i] != '\0'; i++)
+	for (j = 0; p[j] != '\0'; j++)
 	{
-		if (s[i] == 'a' || s[i] == 'A')
-			s[i] = '4';
-		else if (s[i] == 'e' || s[i] == 'E')
-			s[i] = '3';
-		else if (s[i] == 'o' || s[i] == 'O')
-			s[i] = '0';
-		else if (s[i] == 't' || s[i] == 'T')
-			s[i] = '7';
-		else if (s[i] == 'l' || s[i] == 'L')
-			s[i] = '1';
+		if(toupper(s[i])==p[j])
+			s[i]=k[j];
 	}
-
 	return (s);
 }
