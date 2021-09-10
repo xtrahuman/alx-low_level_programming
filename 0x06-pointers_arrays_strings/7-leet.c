@@ -12,11 +12,12 @@ char *leet(char *s)
 
 	char p[] = "AEOTL";
 	char k[] = "43071";
+
 	for (i = 0; s[i] != '\0'; i++)
 	for (j = 0; p[j] != '\0'; j++)
 	{
-		if(toupper(s[i])==p[j])
-			s[i]=k[j];
+		if (toupper(s[i]) == p[j])
+			s[i] = k[j];
 	}
 	return (s);
 }
