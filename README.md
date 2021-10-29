@@ -4,7 +4,7 @@
 > this is a list of tasks and algrorithm carried out using c and shell
 
 topics                                   |  achievements
-:---------------------------------------:|:-----------------------------------------------:
+-----------------------------------------|------------------------------------------------
 variable and conditions statement        |  used putchar and conditions statement
                                             alphabets,numbers(in single and double 
                                             digits)  , in ascending and descending order 
