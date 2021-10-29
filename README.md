@@ -5,16 +5,9 @@
 
 topics                                   |  achievements
 -----------------------------------------|------------------------------------------------
-variable and conditions statement        |  used putchar and conditions statement
-                                            alphabets,numbers(in single and double 
-                                            digits)  , in ascending and descending order 
-functions and nested loops               | introduction to functions, used nested loops to
-                                           print more complex numbers, times table, 
-                                           fibbonaci numbers, lower and uppercase 
-                                           alphabets, all printing was done with a 
-                                           customised putchar function.
-debugging                                | debugged and resolved non working codes by 
-                                           applying debugging skills
+variable and conditions statement        |  used putchar and conditions statement alphabets,numbers(in single and double digits), in ascending and descending order
+functions and nested loops               | introduction to functions, used nested loops to print more complex numbers, times table, fibbonaci numbers, lower and uppercase alphabets, all printing was done with a customised putchar function.
+debugging                                | debugged and resolved non working codes by applying debugging skills
 
 
 ## Built With
